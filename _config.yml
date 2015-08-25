@@ -1,0 +1,25 @@
+markdown: redcarpet
+paginate: 4
+permalink: none
+baseurl: /jekblog
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+      categories: ['article','training']
+
+page_gen:
+  - data: 'member'
+    template: 'profile'
+    name: 'name'
+    dir: 'people'
+    dn: 'dn'    
+  - data: 'pet'
+    template: 'profile'
+    name: 'name'
+    dir: 'pets'
+    dn: 'dn'    
+gems:
+ - jekyll-sitemap

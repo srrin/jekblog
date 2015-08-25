@@ -1,0 +1,46 @@
+---
+layout: default
+title: "Jekyll Blog Homepage"
+navigationName: "Homepage"
+description: "A Clean Blog powered by the awesome Jekyll"
+coverImg: "home-bg.jpg"
+---
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {% for news in paginator.posts %}
+                    <div class="post-preview">
+                        <a href="{{ news.url }}">
+                            <h2 class="post-title">
+                                {{ news.title }}
+                            </h2>
+                            <h3 class="post-subtitle">
+                                {{ news.description }}
+                            </h3>
+                        </a>
+                        <p class="post-meta">Posted by <a href="#">{{ news.author }}</a> on {{ news.date | date_to_string }}</p>
+                    </div>
+                    <hr>
+                {% endfor %}
+                
+                <!-- Pager -->
+                <ul class="pager">
+                    {% if paginator.previous_page %}
+                    <li class="previous">
+                        <a href="{{ paginator.previous_page_path }}">&larr; Prev Posts</a>
+                    </li>
+                    {% endif %}
+
+                    {% if paginator.next_page %}
+                    <li class="next">
+                        <a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
