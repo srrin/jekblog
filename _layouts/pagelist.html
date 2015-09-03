@@ -1,0 +1,21 @@
+---
+tags: 'index'
+---
+This is a sample text
+
+<!--<ul>
+{% for pg in site.pages %}
+  {%if pg.dir == page.dir %}
+    <li><a href="{{ site.baseurl }}{{ pg.url }}">{{ pg.title }}</a></li>
+  {%endif%}
+{% endfor %} 
+</ul>-->
+<ul>
+{% for pg in site.pages | sort: 'title', 'last'  %}
+  {%if pg.dir == page.dir %}
+      {%if pg.title != "index" %}
+        <li><a href="{{ site.baseurl }}{{ pg.url }}">{{ pg.title }}</a></li>
+      {%endif%}
+  {%endif%}
+{% endfor %} 
+</ul>

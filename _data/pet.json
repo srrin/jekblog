@@ -2,16 +2,11 @@
   {
     "name": "Ben Salinas",
     "bio": "long bio goes here",
-    "dn": "animals"
+    "dname": "ani"
   },
   {
     "name": "Fido The Dog",
     "bio": "another long bio",
-    "dn": "animals"
-  },
-  {
-    "name": "Quick Brown Fox",
-    "bio": "Quick Brown Fox jumped over lazy dog",
-    "dn": "animals"
+    "dname": "ani"    
   }
 ]

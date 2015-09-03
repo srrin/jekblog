@@ -1,0 +1,64 @@
+- name: Thunder From Down Under 09032015 2030
+  venue: House Of Blues - Dallas,Dallas,TX
+  event_postdate: Thursday, 09/03/2015
+  event_time: 8:30 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2601955&event=Thunder-From-Down-Under
+  dname: dallas
+  postdate: 1st August 2015
+  template: ticket1 #optional, when not included template from _config.yml would be used
+- name: Blue Man Group LV 09012015 1900
+  venue: Monte Carlo Theatre - Monte Carlo,Las Vegas,NV
+  event_postdate: Tuesday, 09/01/2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2474836&event=Blue-Man-Group
+  dname: Las Vegas  
+  postdate: 1st August 2015
+- name: Lady Antebellem OAK Mountain 09032015 Birmingham
+  venue: OAK Mountain Amphitheatre_ AL, Birmingham, AL
+  event_postdate: Friday, Sep 3rd 2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476268&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
+  dname: dallas  
+  postdate: 1st August 2015
+- name: Lady Antebellem MidFlorida 09052015 Tampa FL
+  venue: MidFlorida Credit Union Amphitheatre At The Florida State Fairgrounds (formerly Live Nation Amphitheatre),Tampa,FL
+  event_postdate: Saturday, Sep 5th 2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476269&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
+  dname: dallas  
+  postdate: 1st August 2015
+- name: Lady Antebellem 09062015 West Palm Beach FL
+  venue: Perfect Vodka Amphitheatre (Formerly Coral Sky Amphitheatre),West Palm Beach,FL
+  event_postdate: Sunday, Sep 6th 2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476269&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
+  dname: dallas  
+  postdate: 1st August 2015
+- name: Shania Twain & Gavin Degraw Tickets  09122015 1930
+  venue: Spokane Arena,Spokane,WA
+  event_postdate: Saturday, 09/12/2015 
+  event_time: 7:30 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2562160&event=Shania-Twain-Gavin-Degraw
+  dname: Spokane
+  postdate: 1st August 2015
+- name: NFL Preseason - Dallas Cowboys vs. Houston Texans 09032015 1900
+  venue: AT&T Stadium Parking Lots (formerly Dallas Cowboys Stadium Parking Lots),Arlington,TX
+  event_postdate: Thursday, 09/03/2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2567022&event=PARKING-NFL-Preseason-Dallas-Cowboys-vs-Houston-Texans
+  dname: arlington
+  postdate: 1st August 2015
+- name: Garth Brooks & Trisha Yearwood 10092015 1900
+  venue: Quicken Loans Arena,Cleveland,OH
+  event_postdate: Friday, 10/09/2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2619752&event=Garth-Brooks-Trisha-Yearwood
+  dname: cleveland    
+  postdate: 1st August 2015
+- name: NFL Preseason - Dallas Cowboys vs. Houston Texans 09032015 1900
+  venue: AT&T Stadium Parking Lots (formerly Dallas Cowboys Stadium Parking Lots),Arlington,TX
+  event_postdate: Thursday, 09/03/2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2567022&event=PARKING-NFL-Preseason-Dallas-Cowboys-vs-Houston-Texans
+  dname: texas/arlington  #creates subdirectory when the folder names are separated using /
+  postdate: 1st August 2015

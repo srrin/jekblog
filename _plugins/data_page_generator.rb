@@ -5,20 +5,23 @@
 module Jekyll
 
   class DataPage < Page
-    def initialize(site, base, dir, data, name, template,dn)
+    def initialize(site, base, dir, data, name, template, drname)
       @site = site
       @base = base
-      @dir = dir
+      #@dir = dir
       @name = sanitize_filename(data[name]) + ".html"
 
-# puts data[dn]
-
+      @dir = data[drname]
+      
+      if data['template']
+        template = data['template']
+      end
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), template + ".html")
       self.data.merge!(data)
       self.data['title'] = data[name]
-
     end
+
 
     private
 
@@ -30,25 +33,42 @@ module Jekyll
     end
   end
 
+  class IndexPage < Page
+    def initialize(site, base, data,  drname)
+      @site = site
+      @base = base
+      @name = "index.html"
+      @dir = data[drname]
+
+      self.process(@name)
+      self.read_yaml(File.join(base,'_layouts'),"pagelist.html")
+      #self.data.merge!(data)
+      self.data['title'] = 'index'
+    end
+  end
+
+
   class DataPagesGenerator < Generator
     safe true
 
     def generate(site)
       data = site.config['page_gen']
-# puts data
       if data
         data.each do |data_spec|
           # todo: check input data correctness
           template = data_spec['template'] || data_spec['data']
           name = data_spec['name']
           dir = data_spec['dir'] || data_spec['data']
-          dn = data_spec['dn']
+          
+          dname = data_spec['drname']
+          #puts dname
 
           if site.layouts.key? template
             records =  site.data[data_spec['data']]
-# loop through records            
+            
             records.each do |record|
-              site.pages << DataPage.new(site, site.source, dir, record, name, template,dn)
+              site.pages << IndexPage.new(site,site.source,record,dname)
+              site.pages << DataPage.new(site, site.source, dir, record, name, template,dname)
             end
           else
             puts "error. could not find #{data_file}" if not File.exists?(data_file)

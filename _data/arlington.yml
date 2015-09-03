@@ -1,0 +1,18 @@
+- name: Lady Antebellem OAK Mountain 09032015 Birmingham
+  venue: OAK Mountain Amphitheatre- AL, Birmingham, AL
+  event_date: Friday, Sep 3rd 2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476268&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
+  dname: arl
+- name: Lady Antebellem MidFlorida 09052015 Tampa FL
+  venue: MidFlorida Credit Union Amphitheatre At The Florida State Fairgrounds (formerly Live Nation Amphitheatre),Tampa,FL
+  event_date: Saturday, Sep 5th 2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476269&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
+  dname: arl
+- name: Lady Antebellem 09062015 West Palm Beach FL
+  venue: Perfect Vodka Amphitheatre (Formerly Coral Sky Amphitheatre),West Palm Beach,FL
+  event_date: Sunday, Sep 6th 2015
+  event_time: 7:00 PM
+  ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476269&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
+  dname: arl

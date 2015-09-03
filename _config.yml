@@ -1,7 +1,7 @@
 markdown: redcarpet
 paginate: 4
 permalink: none
-baseurl: /jekblog
+
 defaults:
   -
     scope:
@@ -11,15 +11,9 @@ defaults:
       categories: ['article','training']
 
 page_gen:
-  - data: 'member'
-    template: 'profile'
+  - data: 'texas'
+    template: 'ticket'
     name: 'name'
-    dir: 'people'
-    dn: 'dn'    
-  - data: 'pet'
-    template: 'profile'
-    name: 'name'
-    dir: 'pets'
-    dn: 'dn'    
+    drname: 'dname'
 gems:
  - jekyll-sitemap

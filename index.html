@@ -12,7 +12,7 @@ coverImg: "home-bg.jpg"
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 {% for news in paginator.posts %}
                     <div class="post-preview">
-                        <a href="{{ site.baseurl }}/{{ news.url }}">
+                        <a href="{{ news.url }}">
                             <h2 class="post-title">
                                 {{ news.title }}
                             </h2>
@@ -29,13 +29,13 @@ coverImg: "home-bg.jpg"
                 <ul class="pager">
                     {% if paginator.previous_page %}
                     <li class="previous">
-                        <a href="{{ site.baseurl }}/{{ paginator.previous_page_path }}">&larr; Prev Posts</a>
+                        <a href="{{ paginator.previous_page_path }}">&larr; Prev Posts</a>
                     </li>
                     {% endif %}
 
                     {% if paginator.next_page %}
                     <li class="next">
-                        <a href="{{ site.baseurl }}/{{ paginator.next_page_path }}">Older Posts &rarr;</a>
+                        <a href="{{ paginator.next_page_path }}">Older Posts &rarr;</a>
                     </li>
                     {% endif %}
                 </ul>
