@@ -1,7 +1,7 @@
 markdown: redcarpet
 paginate: 4
 permalink: none
-
+baseurl: /jekyllblog
 defaults:
   -
     scope:
