@@ -1,6 +1,7 @@
 markdown: redcarpet
 paginate: 4
 permalink: none
+exclude: ['publish']
 baseurl: /jekyllblog
 defaults:
   -
