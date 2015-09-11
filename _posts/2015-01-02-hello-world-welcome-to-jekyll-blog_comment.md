@@ -22,7 +22,7 @@ An awesome introduction to jekyll and its features. An awesome introduction to j
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     // Required: on line below, replace text in quotes with your forum shortname
-    var disqus_shortname = 'FORUM SHORTNAME GOES HERE';
+    var disqus_shortname = 'jekblog';
     
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
@@ -36,7 +36,7 @@ An awesome introduction to jekyll and its features. An awesome introduction to j
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
     // Required: on line below, replace text in quotes with your forum shortname
-    var disqus_shortname = 'FORUM SHORTNAME GOES HERE';
+    var disqus_shortname = 'jekblog';
     
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function () {

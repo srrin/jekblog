@@ -20,6 +20,7 @@
   ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476268&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
   dname: dallas  
   postdate: 1st August 2015
+  eventimage: img/comman_category.jpg
 - name: Lady Antebellem MidFlorida 09052015 Tampa FL
   venue: MidFlorida Credit Union Amphitheatre At The Florida State Fairgrounds (formerly Live Nation Amphitheatre),Tampa,FL
   event_postdate: Saturday, Sep 5th 2015
@@ -27,6 +28,7 @@
   ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2476269&event=Lady-Antebellum-Hunter-Hayes-Sam-Hunt
   dname: dallas  
   postdate: 1st August 2015
+  eventimage: img/comman_category.jpg
 - name: Lady Antebellem 09062015 West Palm Beach FL
   venue: Perfect Vodka Amphitheatre (Formerly Coral Sky Amphitheatre),West Palm Beach,FL
   event_postdate: Sunday, Sep 6th 2015
@@ -62,3 +64,4 @@
   ticket_url: http://directseats.com/ViewTickets.aspx?evtid=2567022&event=PARKING-NFL-Preseason-Dallas-Cowboys-vs-Houston-Texans
   dname: texas/arlington  #creates subdirectory when the folder names are separated using /
   postdate: 1st August 2015
+  eventimage: img/comman_category.jpg
